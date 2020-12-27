@@ -1,0 +1,183 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: left;
+  background-color: #fff;
+}
+
+h1 {}
+
+#home-section {
+  background: url('../images/homebg1.jpg');
+  background-size: cover;
+  background-attachment: scroll;
+  background-position: center center;
+  color: #5f5f5f;
+  height: 735px;
+}
+#hire-me{
+  background-color: #eb5424;
+}
+/* ****************************NAVIGATION STARTS******************************************** */
+.sticky-navigation { opacity: 1; }
+.nav-right{
+  margin-left: auto;
+}
+.navbar-default {
+  /* background: #fff; */
+  border: none;
+  -webkit-box-shadow: 0 2px 8px 0 rgba(50, 50, 50, 0.08);
+          box-shadow: 0 2px 8px 0 rgba(50, 50, 50, 0.08);
+  margin: 0;
+  padding: 0;
+}
+.navbar-default .navbar-brand {
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 28px;
+  line-height: 35px;
+  padding: 0 0 0 40px;
+}
+.profile-image{
+  border-radius: 100%;
+}
+.navbar-default .navbar-nav li a {
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 35px;
+  letter-spacing: 1px;
+}
+.nav-item{
+  font-size: 16px;
+  font-weight: 400;
+  padding: 0 15px;
+  text-transform: uppercase;
+}
+.navbar-default .navbar-nav li a:hover {
+  color: #eb5424;
+  }
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #eb5424;
+  background-color: transparent;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #eb5424;
+  background-color: transparent;
+  text-decoration: underline #eb5424 solid 2px;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background: #eb5424;
+  border-color: transparent;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus { background-color: transparent }
+/* ****************************NAVIGATION ENDS******************************************** */
+.background-content {
+  padding: 200px 0;
+  margin-left: 80px;
+  color: black;
+}
+.background-image{
+  margin-left: -80px;
+}
+
+.big-heading {
+  font-size: 3.5rem;
+  font-weight: 800;
+  line-height: 1.2;
+  margin: 10px 0;
+}
+
+.span-heading, .dot {
+  color: #eb5424;
+}
+.dot{
+  font-size: 1.2rem;
+}
+
+.subheading {
+  color: #000000;
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #eb5424;
+
+}
+.btn.btn-primary{
+  background: #eb5424;
+   border: 1px solid #eb5424 !important;
+   color: #fff !important;
+}
+.btn.btn-outline-primary:hover{
+  background: #eb5424;
+   border: 1px solid #eb5424 !important;
+   color: #fff !important;
+}
+.seperator{
+  padding: 60px 20px;
+  width: 100%;
+}
+.mini-seperator{
+  padding: 30px 0 0 0;
+  width: 100%;
+}
+.heading{
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1.2;
+  margin: 10px 0;
+}
+.content-heading{
+  text-align: center;
+  line-height: 2.5rem;
+}
+.hire-me-content{
+  padding-left: 80px;
+}
+.card-img-top{
+  width: 100px;
+  height: 100px;
+}
+.user-img{
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  margin: auto;
+
+}
+.center{
+  text-align: center;
+}
+.form-control {
+  background: transparent;
+  border: 1px solid #666;
+  border-radius: 2px;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  margin-bottom: 10px;
+  -webkit-transition: all 0.6s ease-in;
+          transition: all 0.6s ease-in;
+}
+.form-control:focus,
+ .form-control:hover {
+  background: #202020;
+  color: #ffffff;
+}
+.item-container{
+  background-color: #f5f4f4;
+  padding: 40px 20px;
+}
+.intro-content{
+  width: 85%;
+  padding-left: 80px;
+}

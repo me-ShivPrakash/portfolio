@@ -5,299 +5,454 @@
   <!-- *************************************SITE TITLE********************************** -->
   <title>Portfolio-ShivPrakash</title>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- *************************************CSS STYLESHEETS********************************** -->
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
 </head>
-<!-- *************************************NAVIGATION STARTS******************************** -->
 
-<a class="" href="index.html">ShivPrakash<span>.</span></a>
+<body data-spy="scroll" data-target="#nav-collapse">
+  <!-- *************************************HOME STARTS******************************** -->
 
-<!-- *************************************NAVIGATION ENDS******************************** -->
+  <section id="home-section">
+    <!-- *************************************NAVIGATION STARTS*************************** -->
+    <nav class="navbar navbar-expand-lg navbar-default">
+      <div class="container-fluid header">
+        <a class="navbar-brand" href="#">
+          <img src="images/shivprakash.jpg" class="profile-image" alt="profile-image" width="40" height="35" class="d-inline-block align-top">
+          <span>ShivPrakash<span class="dot">.</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-collapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="oi oi-menu"></span> Menu
+        </button>
+        <div class="collapse navbar-collapse" id="nav-collapse">
+          <ul class=" nav navbar-nav nav-right">
+            <li class="nav-item"><a href="#home-section" class="nav-link"><span>Home</span></a></li>
+            <li class="nav-item"><a href="#about-section" class="nav-link"><span>About</span></a></li>
+            <li class="nav-item"><a href="#skills-section" class="nav-link"><span>Skills</span></a></li>
+            <li class="nav-item"><a href="#services-section" class="nav-link"><span>Services</span></a></li>
+            <li class="nav-item"><a href="#projects-section" class="nav-link"><span>Projects</span></a></li>
+            <li class="nav-item"><a href="#testimony-section" class="nav-link"><span>Testimonials</span></a></li>
+            <li class="nav-item"><a href="#contact-section" class="nav-link"><span>Contact</span></a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
 
+    <!-- *************************************NAVIGATION ENDS******************************** -->
 
-<!-- *************************************HOME STARTS******************************** -->
-<section id="home-section">
-  <span class="subheading">Hello! This is ShivPrakash</span>
-  <h1 class="">Creative <span>Front &amp; Back End</span> Designer &amp; Developer</h1>
-  <p><a href="#" class="">Hire me</a>
-    <a href="#" class="">Download CV</a>
-  </p>
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active ">
+          <div class="row">
+            <div class="col-lg-6 background-content">
+              <span class="subheading">Hello! This is ShivPrakash</span>
+              <h1 class="big-heading">Creative <span class="span-heading">Front &amp; BackEnd</span> Designer &amp; Developer</h1>
+              <p><a href="#hire-me" class="btn btn-primary">Hire me</a>
+                <a href="#" class="btn btn-outline-primary">Download CV</a>
+              </p>
+            </div>
+            <div class="col-lg-6 background-image">
+              <img src="images/shiv.png" class="d-block width=" 500px" height="667px" alt="...">
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row">
+            <div class="col-lg-6 background-content">
+              <span class="subheading">We Design &amp; Build Brands</span>
+              <h1 class="big-heading">Hi, I am <span class="span-heading">ShivPrakash</span> This is my favorite work.</h1>
+              <p><a href="#" class="btn btn-primary">Hire me</a>
+                <a href="#" class="btn btn-outline-primary">Download CV</a>
+              </p>
+            </div>
+            <div class="col-lg-6 background-image">
+              <img src="images/shiv.png" class="d-block width=" 500" height="667" alt="...">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- *************************************HOME ENDS******************************* -->
 
-  <span class="subheading">We Design &amp; Build Brands</span>
-  <h1 class="">Hi, I am <span>ShivPrakash</span> This is my favorite work.</h1>
-  <p><a href="#" class="btn ">Hire me</a>
-    <a href="#" class="btn ">Download CV</a>
-  </p>
-</section>
+  <!-- *****************************ABOUT STARTS********************************* -->
+  <section id="about-section" class="item-container">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-5 intro-image">
+          <img src="images/shiv-intro.png" width="500px" height="555px" class="" alt="ShivPrakash-Profile-Pic">
+        </div>
 
-<!-- *************************************HOME ENDS******************************* -->
+        <div class="col-lg-7 seperator">
+          <div class="row intro-content">
+            <span class="subheading">My Intro</span>
+            <h2 class="heading">About Me</h2>
+            <p>A river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+            <ul class="about-info">
+              <li class=""><span>Name:</span> <span>Shiv Prakash</span></li>
+              <li class=""><span>Date of birth:</span> <span>September 15, 1999</span></li>
+              <li class=""><span>Address:</span> <span>Anandapur Kolkata West-Bengal</span></li>
+              <li class=""><span>Zip code:</span> <span>700107</span></li>
+              <li class=""><span>Email:</span> <span>iamshivprakash04@gmail.com</span></li>
+              <li class=""><span>Phone: </span> <span>+91 7256964671</span></li>
+            </ul>
+          </div>
+          <div class="row seperator">
+            <div class="col-lg-3 text">Music</div>
+            <div class="col-lg-3 text">Travel</div>
+            <div class="col-lg-3 text">Movie</div>
+            <div class="col-lg-3 text">Sports</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- *****************************ABOUT ENDS********************************* -->
 
-<!-- *****************************ABOUT STARTS********************************* -->
+  <!-- *****************************SKILLS STARTS********************************* -->
+  <section id="skills-section">
+    <div class="container seperator">
+      <div class="row content-heading">
+        <div class="col">
+          <span class="subheading">Skills</span>
+          <h2 class="heading">My Skills</h2>
+          <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
+        </div>
+      </div>
 
+      <div class="row">
+        <h1 class="heading mini-seperator">Front End Development</h1>
+        <div class="row">
+          <div class="col-lg-4">
+            <h2 class="h5">CSS</h2>
+            <div class="progress">
+              <div class="progress-bar bg-success" role="progressbar" style="width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">90%</div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <h2 class="h5">HTML</h2>
+            <div class="progress">
+              <div class="progress-bar bg-success" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%</div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <h2 class="h5">jQuery</h2>
+            <div class="progress">
+              <div class="progress-bar bg-info" role="progressbar" style="width: 65%;" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">65%</div>
+            </div>
+          </div>
+        </div>
+      </div>
 
-<section id="about-section">
+      <div class="row">
+        <h1 class="heading mini-seperator">Back End Development</h1>
+        <div class="row">
+          <div class="col-lg-4">
+            <h2 class="h5">Node.js</h2>
+            <div class="progress">
+              <div class="progress-bar bg-info" role="progressbar" style="width: 70%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">70%</div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <h2 class="h5">MongoDB</h2>
+            <div class="progress">
+              <div class="progress-bar bg-info" role="progressbar" style="width: 60%;" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">60%</div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <h2 class="h5">React.js</h2>
+            <div class="progress">
+              <div class="progress-bar bg-warning" role="progressbar" style="width: 50%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50%</div>
+            </div>
+          </div>
+        </div>
+      </div>
 
-  <div class="img " style="background-image:url(images/about-1.jpg);">
+    </div>
+  </section>
+  <!-- *****************************SKILLS ENDS********************************* -->
 
-    <span class="subheading">My Intro</span>
-    <h2 class="" style="font-size: 34px; text-transform: capitalize;">About Me</h2>
-    <p>A  river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-    <ul class="about-info">
-      <li class=""><span>Name:</span> <span>Shiv Prakash</span></li>
-      <li class=""><span>Date of birth:</span> <span>September 15, 1999</span></li>
-      <li class=""><span>Address:</span> <span>Anandapur Kolkata West-Bengal</span></li>
-      <li class=""><span>Zip code:</span> <span>700107</span></li>
-      <li class=""><span>Email:</span> <span>iamshivprakash04@gmail.com</span></li>
-      <li class=""><span>Phone: </span> <span>+91 7256964671</span></li>
-    </ul>
+  <!-- *****************************SERVICES STARTS********************************* -->
+  <section id="services-section" class="item-container">
+    <div class="container">
+      <div class="row content-heading">
+        <span class="subheading">I am grat at</span>
+        <h2 class="">We do awesome services for our clients</h2>
+        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-3">
+          <div class="services-card">
+            <div class="card" style="width: 18rem;">
+              <img src="..." class="card-img-top" alt="...">
+              <div class="card-body">
+                <h3 class="card-title">Graphic Design</h3>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="services-card">
+            <div class="card" style="width: 18rem;">
+              <img src="..." class="card-img-top" alt="...">
+              <div class="card-body">
+                <h3 class="card-title">Graphic Design</h3>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="services-card">
+            <div class="card" style="width: 18rem;">
+              <img src="..." class="card-img-top" alt="...">
+              <div class="card-body">
+                <h3 class="card-title">Graphic Design</h3>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="services-card">
+            <div class="card" style="width: 18rem;">
+              <img src="..." class="card-img-top" alt="...">
+              <div class="card-body">
+                <h3 class="card-title">Graphic Design</h3>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="row">
+        <div class="col-lg-3">
+          <div class="services-card">
+            <div class="card" style="width: 18rem;">
+              <img src="..." class="card-img-top" alt="...">
+              <div class="card-body">
+                <h3 class="card-title">Graphic Design</h3>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="services-card">
+            <div class="card" style="width: 18rem;">
+              <img src="..." class="card-img-top" alt="...">
+              <div class="card-body">
+                <h3 class="card-title">Graphic Design</h3>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="services-card">
+            <div class="card" style="width: 18rem;">
+              <img src="..." class="card-img-top" alt="...">
+              <div class="card-body">
+                <h3 class="card-title">Graphic Design</h3>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="services-card">
+            <div class="card" style="width: 18rem;">
+              <img src="..." class="card-img-top" alt="...">
+              <div class="card-body">
+                <h3 class="card-title">Graphic Design</h3>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- *****************************SERVICES ENDS********************************* -->
+
+  <!-- *****************************HIREME STARTS********************************* -->
+  <section id="hire-me">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-8">
+          <div class="w-100 py-4 hire-me-content">
+            <h2>Have a project on your mind.</h2>
+            <p>A river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly.</p>
+            <p class="btn btn-lg btn-info"><a href="#" class="btn">Contact me</a></p>
+          </div>
+        </div>
+        <div class="col-lg-4 hire-me-image">
+          <img src="images/shiv.png" class=" width=" 300px" height="230px" d-flex " alt="">
+      </div>
+    </div>
   </div>
-
-
-
-  <div class="text">Music</div>
-
-
-
-
-  <div class="text">Travel</div>
-
-
-
-
-  <div class="text">Movie</div>
-
-  <div class="text">Sports</div>
-
 </section>
-
-
-
-<!-- *****************************ABOUT ENDS********************************* -->
-
-
-<!-- *****************************SKILLS STARTS********************************* -->
-<section id="skills-section">
-
-  <span class="subheading">Skills</span>
-  <h2 class="">My Skills</h2>
-  <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
-
-
-  <h2 class="h5">CSS</h2>
-
-
-  <div class="h2">98<sup class="">%</sup></div>
-
-  <div class="h4 ">28%</div><span class="">Last week</span>
-
-  <div class="h4">60%</div><span class="">Last month</span>
-
-  <h2 class="h5   ">HTML</h2>
-
-
-  <div class="h2 ">98<sup class="">%</sup></div>
-
-
-
-  <div class="h4  ">28%</div><span class="">Last week</span>
-
-  <div class="h4  ">60%</div><span class="">Last month</span>
-
-
-  <h2 class="h5   ">jQuery</h2>
-
-
-  <div class="h2 ">68<sup class="">%</sup></div>
-
-  <div class="h4  ">28%</div><span class="">Last week</span>
-
-  <div class="h4  ">60%</div><span class="">Last month</span>
-
-  <h2 class="h5   ">Node.js</h2>
-
-
-  <div class="h2 ">92<sup class="">%</sup></div>
-
-  <div class="h4  ">28%</div><span class="">Last week</span>
-
-  <div class="h4  ">60%</div><span class="">Last month</span>
-
-  <h2 class="h5   ">MongoDB</h2>
-
-
-  <div class="h2 ">83<sup class="">%</sup></div>
-
-  <div class="h4  ">28%</div><span class="">Last week</span>
-
-  <div class="h4  ">60%</div><span class="">Last month</span>
-
-  <h2 class="h5   ">React.js</h2>
-
-
-  <div class="h2 ">95<sup class="">%</sup></div>
-
-  <div class="h4  ">28%</div><span class="">Last week</span>
-
-  <div class="h4  ">60%</div><span class="">Last month</span>
-
-</section>
-
-
-
-
-<!-- *****************************SKILLS ENDS********************************* -->
-
-
-
-
-<!-- *****************************SERVICES STARTS********************************* -->
-<section id="services-section">
-
-  <span class="subheading">I am grat at</span>
-  <h2 class="">We do awesome services for our clients</h2>
-  <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
-
-
-  <h3 class="">Web Design</h3>
-  <p>A  river named Duden flows by their place and supplies.</p>
-
-  <h3 class="">Web Application</h3>
-  <p>A  river named Duden flows by their place and supplies.</p>
-
-  <h3 class="">Web Development</h3>
-  <p>A  river named Duden flows by their place and supplies.</p>
-
-  <h3 class="">Banner Design</h3>
-  <p>A  river named Duden flows by their place and supplies.</p>
-
-  <h3 class="">Branding</h3>
-  <p>A  river named Duden flows by their place and supplies.</p>
-
-  <h3 class="">Digital Marketing</h3>
-  <p>A  river named Duden flows by their place and supplies.</p>
-
-  <h3 class="">Graphic Design</h3>
-  <p>A  river named Duden flows by their place and supplies.</p>
-
-  <h3 class="">SEO</h3>
-  <p>A  river named Duden flows by their place and supplies.</p>
-
-</section>
-
-
-
-<!-- *****************************SERVICES ENDS********************************* -->
-
-
-<!-- *****************************HIREME STARTS********************************* -->
-<section class="hireme">
-
-  <h2>Have a project on your mind.</h2>
-  <p>A  river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly.</p>
-  <p class=""><a href="#" class="btn">Contact me</a></p>
-
-  <img src="images" class="" alt="">
-
-</section>
-
-
-
 <!-- *****************************HIREME ENDS********************************* -->
 
-
-
 <!-- *****************************PROJECTS STARTS********************************* -->
-<section id="projects-section">
+  <section id=" projects-section">
+          <div class="container seperator">
+            <div class="row content-heading">
+              <span class="subheading">Accomplishments</span>
+              <h1 class="d-flex justify-content-center p-2 text-dark">Our Projects</h1>
+              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
+            </div>
+            <div class="row">
+              <div class="col-lg-3">
+                <div class="project-card">
+                  <div class="card" style="width: 18rem;">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3">
+                <div class="project-card">
+                  <div class="card" style="width: 18rem;">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3">
+                <div class="project-card">
+                  <div class="card" style="width: 18rem;">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3">
+                <div class="project-card">
+                  <div class="card" style="width: 18rem;">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
 
-  <span class="subheading">Accomplishments</span>
-  <h2 class="">Our Projects</h2>
-  <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
+            </div>
+          </div>
+  </section>
 
+  <!-- *****************************PROJECTS ENDS********************************* -->
 
-  <h3><a href="#">Front End Design &amp; Development</a></h3>
-  <span>Web Design</span>
+  <!-- *****************************TESTIMONY STARTS********************************* -->
+  <section id="testimony-section" class="item-container">
+    <div class="container seperator">
+      <div class="row content-heading">
+        <span class="subheading">Testimonies</span>
+        <h2 class="p-3 text-dark">What client says about?</h2>
+        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
+      </div>
+      <div class="row">
+        <div id="testimony" class="carousel carousel-dark slide" data-bs-ride="carousel">
+          <div class="col-lg-8 mx-auto">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="images/shivprakash.jpg" class="d-block user-img" alt="...">
+                <div class="d-md-block center">
+                  <h5>First slide label</h5>
+                  <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="images/shivprakash.jpg" class="d-block user-img" alt="...">
+                <div class="d-md-block center">
+                  <h5>Second slide label</h5>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="images/shivprakash.jpg" class="d-block user-img" alt="...">
+                <div class="d-md-block center">
+                  <h5>Third slide label</h5>
+                  <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#testimony" role="button" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#testimony" role="button" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- *****************************TESTIMONY ENDS********************************* -->
 
+  <!-- *****************************CONTACT STARTS********************************* -->
+  <section id="contact-section">
+    <div class="container seperator">
+      <div class="row content-heading">
+        <span class="subheading">Contact me</span>
+        <h2 class="">Have a Project?</h2>
+        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
+      </div>
+      <div class="row">
+        <div class="col-md-7 col-sm-10 item-container">
+          <form action="#" method="post">
+            <div class="row">
+              <div class="col-md-6 col-sm-6">
+                <input class="form-control" type="text" placeholder="Your Name">
+              </div>
+              <div class="col-md-6 col-sm-6">
+                <input class="form-control" type="email" placeholder="Your Email">
+              </div>
+            </div>
+            <div class="col-md-12 col-sm-12">
+              <input class="form-control" type="text" placeholder="Your Subject">
+              <textarea class="form-control" placeholder="Your Message" rows="6"></textarea>
+            </div>
+            <div class="col-md-offset-2 col-md-8 col-sm-offset-2 col-sm-8">
+              <input class="btn btn-primary" type="submit" value="SHOOT MESSAGE">
+            </div>
+          </form>
+        </div>
+        <div class="col-md-5 col-sm-10">
+          <p><span>Address:</span> Anandapur, kolkata, West-Bengal, 700107</p>
+          <p><span>Phone:</span> <a href="tel://1234567920">+91 7256964671</a></p>
+          <p><span>Email:</span> iamshivprakash04@gmail.com</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- *****************************CONTACT ENDS********************************* -->
 
+  <!-- *****************************FOOTER STARTS********************************* -->
+  <footer class="footer-section bg-info p-1 d-flex justify-content-center">
 
-</section>
+    <p>
+      Copyright &copy;<script>
+        document.write(new Date().getFullYear());
+      </script> All rights reserved | This portfolio is made with HTML, CSS, Bootstrap &amp; designed by <a href="#">ShivPrakash.</a>
+    </p>
 
-
-
-<!-- *****************************PROJECTS ENDS********************************* -->
-
-
-
-
-<!-- *****************************TESTIMONY STARTS********************************* -->
-<section id="testimony-section">
-
-  <span class="subheading">Testimonies</span>
-  <h2 class="">What client says about?</h2>
-  <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
-
-  <p class=" ">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-
-  <div class="user-img" style="background-image: url(images/person_1.jpg)"></div>
-
-  <p class="">Jayant Kumar</p>
-  <span class="">Graphic Designer</span>
-
-</section>
-
-
-
-<!-- *****************************TESTIMONY ENDS********************************* -->
-
-
-
-
-
-
-
-<!-- *****************************CONTACT STARTS********************************* -->
-<section id="contact-section">
-
-  <span class="subheading">Contact me</span>
-  <h2 class="">Have a Project?</h2>
-  <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
-
-  <form action="#" class="">
-
-    <input type="text" class="form-control" placeholder="Your Name">
-
-    <input type="text" class="form-control" placeholder="Your Email">
-
-    <input type="text" class="form-control" placeholder="Subject">
-
-    <textarea name="" id="" cols="30" rows="7" class="form-control" placeholder="Message"></textarea>
-
-    <input type="submit" value="Send Message" class="btn">
-
-  </form>
-
-  <p><span>Address:</span> Anandapur, kolkata, West-Bengal, 700107</p>
-
-  <p><span>Phone:</span> <a href="tel://1234567920">+91 7256964671</a></p>
-
-  <p><span>Email:</span> iamshivprakash04@gmail.com</p>
-
-</section>
-
-
-<!-- *****************************CONTACT ENDS********************************* -->
-
-
-
-<!-- *****************************FOOTER STARTS********************************* -->
-<footer class="footer-section">
-
-  <p>
-    Copyright &copy;<script>
-      document.write(new Date().getFullYear());
-    </script> All rights reserved | This portfolio is made with &amp; designed by <a href="#">ShivPrakash.</a>
-  </p>
-
-</footer>
-
-
+  </footer>
+  <!-- *************************************JS STYLESHEETS***************************** -->
 </body>
 
 </html>
