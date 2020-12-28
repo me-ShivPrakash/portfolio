@@ -6,86 +6,98 @@
   <title>Portfolio-ShivPrakash</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+   <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+   <meta name="generator" content="Hugo 0.79.0">
   <!-- *************************************CSS STYLESHEETS********************************** -->
-  <link rel="stylesheet" href="css/styles.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
   <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body data-spy="scroll" data-target="#nav-collapse">
-  <!-- *************************************HOME STARTS******************************** -->
-
-  <section id="home-section">
-    <!-- *************************************NAVIGATION STARTS*************************** -->
-    <nav class="navbar navbar-expand-lg navbar-default">
-      <div class="container-fluid header">
-        <a class="navbar-brand" href="#">
-          <img src="images/shivprakash.jpg" class="profile-image" alt="profile-image" width="40" height="35" class="d-inline-block align-top">
-          <span>ShivPrakash<span class="dot">.</span>
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-collapse" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="oi oi-menu"></span> Menu
-        </button>
-        <div class="collapse navbar-collapse" id="nav-collapse">
-          <ul class=" nav navbar-nav nav-right">
-            <li class="nav-item"><a href="#home-section" class="nav-link"><span>Home</span></a></li>
-            <li class="nav-item"><a href="#about-section" class="nav-link"><span>About</span></a></li>
-            <li class="nav-item"><a href="#skills-section" class="nav-link"><span>Skills</span></a></li>
-            <li class="nav-item"><a href="#services-section" class="nav-link"><span>Services</span></a></li>
-            <li class="nav-item"><a href="#projects-section" class="nav-link"><span>Projects</span></a></li>
-            <li class="nav-item"><a href="#testimony-section" class="nav-link"><span>Testimonials</span></a></li>
-            <li class="nav-item"><a href="#contact-section" class="nav-link"><span>Contact</span></a></li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-
-    <!-- *************************************NAVIGATION ENDS******************************** -->
-
-    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-      <div class="carousel-inner">
-        <div class="carousel-item active ">
-          <div class="row">
-            <div class="col-lg-6 background-content">
-              <span class="subheading">Hello! This is ShivPrakash</span>
-              <h1 class="big-heading">Creative <span class="span-heading">Front &amp; BackEnd</span> Designer &amp; Developer</h1>
-              <p><a href="#hire-me" class="btn btn-primary">Hire me</a>
-                <a href="#" class="btn btn-outline-primary">Download CV</a>
-              </p>
+  <!-- *************************************NAVIGATION STARTS*************************** -->
+  <header class="header">
+    <div class="header-inner">
+      <div class="container-fluid px-3">
+        <nav class="navbar navbar-expand-lg fixed-top navbar-default">
+          <a class="navbar-brand" href="#">
+              <img src="images/shivprakash.jpg" class="profile-image" alt="profile-image"
+            style="width:35px;">
+              <span>ShivPrakash<span class="dot">.</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-collapse" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="oi oi-menu"></span> Menu
+            </button>
+            <div class="collapse navbar-collapse" id="nav-collapse">
+              <ul class="navbar-nav nav-right">
+                <li class="nav-item active"><a href="#home-section" class="nav-link"><span>Home</span></a></li>
+                <li class="nav-item"><a href="#about-section" class="nav-link"><span>About</span></a></li>
+                <li class="nav-item"><a href="#skills-section" class="nav-link"><span>Skills</span></a></li>
+                <li class="nav-item"><a href="#services-section" class="nav-link"><span>Services</span></a></li>
+                <li class="nav-item"><a href="#projects-section" class="nav-link"><span>Projects</span></a></li>
+                <li class="nav-item"><a href="#testimony-section" class="nav-link"><span>Testimonials</span></a></li>
+                <li class="nav-item"><a href="#contact-section" class="nav-link"><span>Contact</span></a></li>
+              </ul>
             </div>
-            <div class="col-lg-6 background-image">
-              <img src="images/shiv.png" class="d-block width=" 500px" height="667px" alt="...">
-            </div>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <div class="row">
-            <div class="col-lg-6 background-content">
-              <span class="subheading">We Design &amp; Build Brands</span>
-              <h1 class="big-heading">Hi, I am <span class="span-heading">ShivPrakash</span> This is my favorite work.</h1>
-              <p><a href="#" class="btn btn-primary">Hire me</a>
-                <a href="#" class="btn btn-outline-primary">Download CV</a>
-              </p>
-            </div>
-            <div class="col-lg-6 background-image">
-              <img src="images/shiv.png" class="d-block width=" 500" height="667" alt="...">
-            </div>
-          </div>
-        </div>
+        </nav>
       </div>
     </div>
-  </section>
+  </header>
+<!-- *************************************NAVIGATION ENDS******************************** -->
+
+  <!-- *************************************HOME STARTS******************************** -->
+<section id="home-section" class="content-banner">
+  <div class="container">
+    <div class="row d-flex justify-content-center">
+      <div class="col-md-12">
+          <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="row d-flex justify-content-center">
+                  <div class="col-md-6 col-sm-12 banner-content">
+                      <span class="subheading">Hello! This is ShivPrakash</span>
+                      <h1 class="big-heading">Creative <span class="span-heading">Front &amp; BackEnd</span> Designer &amp; Developer</h1>
+                      <p><a href="#hire-me" class="btn btn-primary">Hire me</a>
+                        <a href="#" class="btn btn-outline-primary">Download CV</a>
+                      </p>
+                    </div>
+                    <div class="col-md-6">
+                      <img src="images/shiv.png" class="img-fluid display-none" alt="...">
+                    </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row d-flex justify-content-center">
+                  <div class="col-md-6 col-sm-12 banner-content">
+                    <span class="subheading">We Design &amp; Build Brands</span>
+                    <h1 class="big-heading">Hi, I am <span class="span-heading">ShivPrakash</span> This is my favorite work.</h1>
+                    <p><a href="#" class="btn btn-primary">Hire me</a>
+                      <a href="#" class="btn btn-outline-primary">Download CV</a>
+                    </p>
+                  </div>
+                  <div class="col-md-6 banner-image">
+                    <img src="images/shiv.png" class="img-fluid display-none" alt="...">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+  </div>
+</section>
   <!-- *************************************HOME ENDS******************************* -->
 
   <!-- *****************************ABOUT STARTS********************************* -->
-  <section id="about-section" class="item-container">
+  <section id="about-section" class="colored-container">
     <div class="container-fluid">
       <div class="row">
-        <div class="col-lg-5 intro-image">
-          <img src="images/shiv-intro.png" width="500px" height="555px" class="" alt="ShivPrakash-Profile-Pic">
+        <div class="col-md-5 col-sm-10 d-flex intro-image">
+          <img src="images/shiv-intro.png" width="500px" height="555px" class="img-fluid" alt="ShivPrakash-Profile-Pic">
         </div>
-
-        <div class="col-lg-7 seperator">
-          <div class="row intro-content">
+       <div class="col-md-7 col-sm-10 seperator">
+          <!-- <div class="row "> -->
             <span class="subheading">My Intro</span>
             <h2 class="heading">About Me</h2>
             <p>A river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
@@ -97,12 +109,12 @@
               <li class=""><span>Email:</span> <span>iamshivprakash04@gmail.com</span></li>
               <li class=""><span>Phone: </span> <span>+91 7256964671</span></li>
             </ul>
-          </div>
-          <div class="row seperator">
-            <div class="col-lg-3 text">Music</div>
-            <div class="col-lg-3 text">Travel</div>
-            <div class="col-lg-3 text">Movie</div>
-            <div class="col-lg-3 text">Sports</div>
+          <!-- </div> -->
+          <div class="row d-flex justify-content-center white-container">
+            <div class="col-sm-3 text">Music</div>
+            <div class="col-sm-3 text">Travel</div>
+            <div class="col-sm-3 text">Movie</div>
+            <div class="col-sm-3 text">Sports</div>
           </div>
         </div>
       </div>
@@ -111,8 +123,8 @@
   <!-- *****************************ABOUT ENDS********************************* -->
 
   <!-- *****************************SKILLS STARTS********************************* -->
-  <section id="skills-section">
-    <div class="container seperator">
+  <section id="skills-section" class="white-container">
+    <div class="container">
       <div class="row content-heading">
         <div class="col">
           <span class="subheading">Skills</span>
@@ -174,7 +186,7 @@
   <!-- *****************************SKILLS ENDS********************************* -->
 
   <!-- *****************************SERVICES STARTS********************************* -->
-  <section id="services-section" class="item-container">
+  <section id="services-section" class="colored-container">
     <div class="container">
       <div class="row content-heading">
         <span class="subheading">I am grat at</span>
@@ -182,8 +194,8 @@
         <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
       </div>
 
-      <div class="row">
-        <div class="col-lg-3">
+      <div class="row d-flex justify-content-center">
+        <div class="col-lg-3 col-md-4 col-sm-6">
           <div class="services-card">
             <div class="card" style="width: 18rem;">
               <img src="..." class="card-img-top" alt="...">
@@ -194,7 +206,7 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-3">
+        <div class="col-lg-3 col-md-4 col-sm-6">
           <div class="services-card">
             <div class="card" style="width: 18rem;">
               <img src="..." class="card-img-top" alt="...">
@@ -205,7 +217,7 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-3">
+        <div class="col-lg-3 col-md-4 col-sm-6">
           <div class="services-card">
             <div class="card" style="width: 18rem;">
               <img src="..." class="card-img-top" alt="...">
@@ -216,7 +228,7 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-3">
+        <div class="col-lg-3 col-md-4 col-sm-6">
           <div class="services-card">
             <div class="card" style="width: 18rem;">
               <img src="..." class="card-img-top" alt="...">
@@ -230,8 +242,8 @@
 
       </div>
 
-      <div class="row">
-        <div class="col-lg-3">
+      <div class="row d-flex justify-content-center">
+        <div class="col-lg-3 col-md-4 col-sm-6">
           <div class="services-card">
             <div class="card" style="width: 18rem;">
               <img src="..." class="card-img-top" alt="...">
@@ -242,7 +254,7 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-3">
+        <div class="col-lg-3 col-md-4 col-sm-6">
           <div class="services-card">
             <div class="card" style="width: 18rem;">
               <img src="..." class="card-img-top" alt="...">
@@ -253,7 +265,7 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-3">
+        <div class="col-lg-3 col-md-4 col-sm-6">
           <div class="services-card">
             <div class="card" style="width: 18rem;">
               <img src="..." class="card-img-top" alt="...">
@@ -264,7 +276,7 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-3">
+        <div class="col-lg-3 col-md-4 col-sm-6">
           <div class="services-card">
             <div class="card" style="width: 18rem;">
               <img src="..." class="card-img-top" alt="...">
@@ -281,18 +293,18 @@
   <!-- *****************************SERVICES ENDS********************************* -->
 
   <!-- *****************************HIREME STARTS********************************* -->
-  <section id="hire-me">
+  <section id="hire-me" style="margin-top:90px;">
     <div class="container-fluid">
       <div class="row">
-        <div class="col-lg-8">
+        <div class="col-md-8 col-sm-12">
           <div class="w-100 py-4 hire-me-content">
             <h2>Have a project on your mind.</h2>
             <p>A river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly.</p>
-            <p class="btn btn-lg btn-info"><a href="#" class="btn">Contact me</a></p>
+            <p><a href="#" class="btn btn-lg btn-info">Contact me</a></p>
           </div>
         </div>
-        <div class="col-lg-4 hire-me-image">
-          <img src="images/shiv.png" class=" width=" 300px" height="230px" d-flex " alt="">
+        <div class="col-md-4 display-none">
+          <img src="images/shiv.png" class="hire-me-image" alt="">
       </div>
     </div>
   </div>
@@ -300,15 +312,15 @@
 <!-- *****************************HIREME ENDS********************************* -->
 
 <!-- *****************************PROJECTS STARTS********************************* -->
-  <section id=" projects-section">
-          <div class="container seperator">
+  <section id="projects-section" class="white-container">
+          <div class="container">
             <div class="row content-heading">
               <span class="subheading">Accomplishments</span>
               <h1 class="d-flex justify-content-center p-2 text-dark">Our Projects</h1>
               <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
             </div>
-            <div class="row">
-              <div class="col-lg-3">
+            <div class="row d-flex justify-content-center">
+              <div class="col-lg-3 col-md-4 col-sm-6">
                 <div class="project-card">
                   <div class="card" style="width: 18rem;">
                     <img src="..." class="card-img-top" alt="...">
@@ -318,7 +330,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-lg-3">
+              <div class="col-lg-3 col-md-4 col-sm-6">
                 <div class="project-card">
                   <div class="card" style="width: 18rem;">
                     <img src="..." class="card-img-top" alt="...">
@@ -328,7 +340,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-lg-3">
+              <div class="col-lg-3 col-md-4 col-sm-6">
                 <div class="project-card">
                   <div class="card" style="width: 18rem;">
                     <img src="..." class="card-img-top" alt="...">
@@ -338,7 +350,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-lg-3">
+              <div class="col-lg-3 col-md-4 col-sm-6">
                 <div class="project-card">
                   <div class="card" style="width: 18rem;">
                     <img src="..." class="card-img-top" alt="...">
@@ -356,8 +368,8 @@
   <!-- *****************************PROJECTS ENDS********************************* -->
 
   <!-- *****************************TESTIMONY STARTS********************************* -->
-  <section id="testimony-section" class="item-container">
-    <div class="container seperator">
+  <section id="testimony-section" class="colored-container">
+    <div class="container">
       <div class="row content-heading">
         <span class="subheading">Testimonies</span>
         <h2 class="p-3 text-dark">What client says about?</h2>
@@ -405,8 +417,8 @@
   <!-- *****************************TESTIMONY ENDS********************************* -->
 
   <!-- *****************************CONTACT STARTS********************************* -->
-  <section id="contact-section">
-    <div class="container seperator">
+  <section id="contact-section" class="white-container">
+    <div class="container">
       <div class="row content-heading">
         <span class="subheading">Contact me</span>
         <h2 class="">Have a Project?</h2>
@@ -445,7 +457,7 @@
   <!-- *****************************FOOTER STARTS********************************* -->
   <footer class="footer-section bg-info p-1 d-flex justify-content-center">
 
-    <p>
+    <p class="center">
       Copyright &copy;<script>
         document.write(new Date().getFullYear());
       </script> All rights reserved | This portfolio is made with HTML, CSS, Bootstrap &amp; designed by <a href="#">ShivPrakash.</a>
@@ -453,6 +465,12 @@
 
   </footer>
   <!-- *************************************JS STYLESHEETS***************************** -->
-</body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script> -->
+  <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/js/bootstrap.min.js" integrity="sha384-vZ2WRJMwsjRMW/8U7i6PWi6AlO1L79snBrmgiDpgIWJ82z8eA5lenwvxbMV1PAh7" crossorigin="anonymous"></script> -->
 
+  <!-- <script src="js/jquery.js"></script> -->
+  <!-- <script src="js/bootstrap.min.js"></script> -->
+  <!-- <script src="js/custom.js"></script> -->
+</body>
 </html>
